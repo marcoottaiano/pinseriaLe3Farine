@@ -1,4 +1,4 @@
-$primary: #262e36;
+$primary: #4F0F0F;
 $secondary: #b12009;
 $tertiary: #cfc36f;
 
@@ -9,3 +9,21 @@ $grey: #eaeaea;
 $white: #fff;
 
 // $font: "Noto Sans JP", sans-serif;
+
+.title {
+  color: white;
+}
+
+.divider {
+  color: white;
+  border-top: 3px solid white;
+  opacity: 1;
+}
+
+h1 {
+  font-size: 3rem !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+}

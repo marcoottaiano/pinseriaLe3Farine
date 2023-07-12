@@ -1,0 +1,26 @@
+@import "../../../styles/common.scss";
+
+.footer-container {
+  width: 100vw;
+  height: 40vh;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 7vh solid transparent;
+}
+
+.right-triangle {
+  border-left: 50vw solid $primary;
+}
+
+.left-triangle {
+  border-right: 50vw solid $primary;
+}
+
+.footer-body {
+  background-color: $primary;
+  width: 100vw;
+  height: 33vh;
+}
