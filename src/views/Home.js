@@ -7,7 +7,9 @@ function Home() {
   return (
     <>
       <Header />
+
       <div className='background-container d-flex align-items-end'>
+        <div className='bg-overlay'></div>
         <div className='home-title-container'>
           <h1 className='title'>Lorem ipsum dolor sit amet</h1>
           <hr className='divider' />

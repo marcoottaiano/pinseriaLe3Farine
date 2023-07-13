@@ -2,6 +2,7 @@ $backgroundImageUrl: url('../assets/images/sfondo.jpg');
 
 .background-container {
   background-image: $backgroundImageUrl;
+  box-shadow: inset black;
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -12,4 +13,14 @@ $backgroundImageUrl: url('../assets/images/sfondo.jpg');
 .home-title-container {
   margin-bottom: 20vh;
   margin-left: 20vw;
+  z-index: 3;
+}
+
+.bg-overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 2;
+  position: absolute;
 }

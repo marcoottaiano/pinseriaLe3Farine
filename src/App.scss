@@ -1,5 +1,8 @@
 @import "./styles/common.scss";
-@import '~bootstrap/scss/bootstrap';
+@import 'variables';
+
+@import './styles/footer.scss';
+@import './styles/header.scss';
 
 /* reset */
 * {
@@ -22,10 +25,19 @@ ul,
 ul li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
 
 img {
   height: auto;
+}
+
+.navbar-toggler-icon {
+  background-image: url('./assets/images/hamburger.svg') !important;
+}
+
+.navbar-toggler {
+  border: none !important;
 }
