@@ -1,11 +1,13 @@
-.title {
-  color: white;
-}
-
 .divider {
   color: white;
   border-top: 3px solid white;
   opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: $secondary
 }
 
 h1 {
@@ -13,5 +15,37 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem !important;
+  font-size: 2.5rem !important;
+}
+
+h3 {
+  font-size: 1.7rem !important;
+}
+
+@include media-breakpoint-down(md) {
+  h1 {
+    font-size: 2.7rem !important;
+  }
+
+  h2 {
+    font-size: 1.7rem !important;
+  }
+
+  h3 {
+    font-size: 1.3rem !important;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  h3 {
+    font-size: 1rem !important;
+  }
 }

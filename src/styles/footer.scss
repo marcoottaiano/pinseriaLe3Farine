@@ -1,12 +1,11 @@
 .footer-container {
   width: 100vw;
-  height: 40vh;
 }
 
 .triangle {
   width: 0;
   height: 0;
-  border-top: 7vh solid transparent;
+  border-top: 30px solid transparent;
 }
 
 .right-triangle {
@@ -20,5 +19,45 @@
 .footer-body {
   background-color: $primary;
   width: 100vw;
-  height: 33vh;
+  height: fit-content;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+
+  .social-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+}
+
+.footer-bio {
+  font-size: 16px;
+  text-align: center;
+}
+
+@include media-breakpoint-down(sm) {
+  .footer-container {
+    height: 30vh;
+  }
+
+  .social-container {
+    gap: 15px;
+    margin-top: 10px;
+
+    .social-logo {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .footer-bio {
+    font-size: 12px;
+    max-width: 80vw;
+  }
 }
