@@ -1,5 +1,6 @@
 .footer-container {
   width: 100vw;
+  height: fit-content;
 }
 
 .triangle {
@@ -42,10 +43,6 @@
 }
 
 @include media-breakpoint-down(sm) {
-  .footer-container {
-    height: 30vh;
-  }
-
   .social-container {
     gap: 15px;
     margin-top: 10px;

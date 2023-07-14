@@ -10,7 +10,7 @@ function Header() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      setScrollActive(scrollPosition > 200);
+      setScrollActive(scrollPosition > 0);
     };
 
     window.addEventListener('scroll', handleScroll);
