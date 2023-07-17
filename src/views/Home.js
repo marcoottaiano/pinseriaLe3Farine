@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../components/hooks/Header'
 import Footer from '../components/hooks/Footer'
-import Button from 'react-bootstrap/Button';
-import logo from '../assets/images/sfondo.jpg'
+import HorizontalCard from '../components/ui/HorizontalCard'
+
 
 function Home() {
   return (
@@ -26,17 +26,8 @@ function Home() {
           <div className='text-white news-subtitle'>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</div>
         </div>
       </div>
-      <div className='horizontal-card'>
-        <div className='text-container'>
-          <div>
-            <div className='title-horizontal-card'>Lorem ipsum dolor sit</div>
-            <hr className='card-divider' />
-            <span className='text-horizontal-card'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin nulla non accumsan ultrices.</span>
-          </div>
-          <Button variant='primary' className='button-text'> Menú</Button>
-        </div>
-        <img src={logo} className='image-horizontal-card' />
-      </div>
+      <HorizontalCard title={'Lorem ipsum dolor sit'} subtitle={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin nulla non accumsan ultrices.'} btnLabel={'Menú'} />
+      <HorizontalCard reverse={true} />
       <Footer />
     </>
   )

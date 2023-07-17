@@ -1,0 +1,91 @@
+.horizontal-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 7vw;
+  gap: 5vw;
+  height: fit-content;
+  text-align: center;
+
+  .text-container {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .title-horizontal-card {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .text-horizontal-card {
+      font-size: 36px;
+    }
+  }
+
+  .image-horizontal-card {
+    width: 35vw;
+    height: 55vh;
+    object-fit: cover;
+  }
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+@include media-breakpoint-down(lg) {
+  .horizontal-card {
+    margin: 40px 7vw 30px 7vw;
+    flex-direction: column;
+
+    .text-container {
+      height: 30vh;
+      gap: 5vw;
+
+      .title-horizontal-card {
+        font-size: 40px;
+      }
+
+      .text-horizontal-card {
+        font-size: 28px;
+      }
+    }
+
+    .image-horizontal-card {
+      width: 80vw;
+      height: 40vh;
+      object-fit: cover;
+      margin-top: 2vh;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .horizontal-card {
+    .text-container {
+      height: 20vh;
+      gap: 2vh;
+
+      .card-divider {
+        margin: 1vh 0;
+      }
+
+      .title-horizontal-card {
+        font-size: 20px;
+      }
+
+      .text-horizontal-card {
+        font-size: 14px;
+      }
+    }
+
+    .image-horizontal-card {
+      width: 80vw;
+      height: 20vh;
+      object-fit: cover;
+      margin-top: 2vh;
+    }
+  }
+}
