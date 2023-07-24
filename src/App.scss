@@ -24,7 +24,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Caprasimo-Regular', sans-serif;
+  // font-family: 'Lato-Regular', sans-serif;
 }
 
 ul,
@@ -41,7 +41,6 @@ img {
 }
 
 @font-face {
-  font-family: 'Caprasimo-Regular';
-  src: url('./assets/font/Caprasimo-Regular.ttf');
-
+  font-family: 'Lato-Regular';
+  src: url('./assets/font/Lato/Lato-Regular.ttf');
 }

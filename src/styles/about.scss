@@ -16,7 +16,7 @@
 
   .about-text {
     font-size: 20px;
-    margin: 20px 10vw;
+    margin: 20px 15vw;
     text-align: justify;
   }
 
@@ -24,5 +24,13 @@
     width: 70vw;
     height: 50vh;
     object-fit: cover;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #about {
+    .about-text {
+      text-align: center;
+    }
   }
 }

@@ -15,7 +15,7 @@ function About() {
         </div>
       </div>
       <div className='story-container d-flex flex-column justify-content-center align-items-center'>
-        <h2 className='mb-4 mt-4'>Storia</h2>
+        <h1 className='mb-4 mt-4'>Storia</h1>
         <p className='about-text text-justify'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor quam at nibh eleifend, maximus lobortis diam feugiat.
         </p>
