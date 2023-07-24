@@ -1,0 +1,28 @@
+#about {
+  .background-container {
+    background-image: url('../assets/images/attestato.jpg');
+    box-shadow: inset black;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .about-title-container {
+      margin: 20vh auto;
+      z-index: 3;
+    }
+  }
+
+  .about-text {
+    font-size: 20px;
+    margin: 20px 10vw;
+    text-align: justify;
+  }
+
+  .about-img {
+    width: 70vw;
+    height: 50vh;
+    object-fit: cover;
+  }
+}

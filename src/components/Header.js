@@ -39,10 +39,10 @@ function Header() {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/blogs">Menú</NavLink>
+              <NavLink to="/menu">Menú</NavLink>
             </li>
             <li>
-              <NavLink to="/projects">Aziende</NavLink>
+              <NavLink to="/">Aziende</NavLink>
             </li>
             <li>
               <NavLink to="/about">Storia</NavLink>
