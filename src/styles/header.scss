@@ -23,8 +23,9 @@
   height: 20vh;
 
   &.scroll-active {
-    transition: all .25s;
-    background-color: rgba($color: $primary, $alpha: 0.8);
+    transition: all .50s;
+    // background-color: rgba($color: $primary, $alpha: 0.8);
+    background-color: $primary;
   }
 }
 

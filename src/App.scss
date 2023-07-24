@@ -5,6 +5,7 @@
 @import "./styles/common.scss";
 @import "./styles/home.scss";
 @import './styles/horizontalCard.scss';
+@import './styles/map.scss';
 
 /* reset */
 * {
@@ -21,6 +22,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: 'Caprasimo-Regular', sans-serif;
 }
 
 ul,
@@ -34,4 +36,10 @@ a {
 
 img {
   height: auto;
+}
+
+@font-face {
+  font-family: 'Caprasimo-Regular';
+  src: url('./assets/font/Caprasimo-Regular.ttf');
+
 }

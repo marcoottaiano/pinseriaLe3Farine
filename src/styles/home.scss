@@ -57,12 +57,13 @@ $backgroundImageUrl: url('../assets/images/sfondo.jpg');
     text-align: center;
     z-index: 4;
     position: absolute;
-    margin: 0 10vw 0 10vw;
+    margin: 0 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 50vh;
+    width: 80vw;
 
     .news-title {
       font-size: 36px;
@@ -74,6 +75,56 @@ $backgroundImageUrl: url('../assets/images/sfondo.jpg');
     }
   }
 }
+
+.home-vector {
+  color: black;
+  border-top: 1px solid black;
+  opacity: 1;
+  margin: 20px auto;
+  width: 60vw;
+}
+
+.newsletter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+
+  .newsletter-subtitle {
+    font-size: 30px;
+  }
+
+  .newsletter-title {
+    font-size: 48px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-top: 15px;
+
+    .floating-field {
+      width: 30vw;
+    }
+  }
+}
+
+.map-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .map-title {
+    font-size: 48px;
+  }
+}
+
 
 
 @include media-breakpoint-down(lg) {
@@ -100,6 +151,34 @@ $backgroundImageUrl: url('../assets/images/sfondo.jpg');
       .news-subtitle {
         font-size: 14px;
       }
+    }
+  }
+
+  .newsletter-section {
+    margin: 20px 10vw;
+
+    .newsletter-subtitle {
+      font-size: 14px;
+    }
+
+    .newsletter-title {
+      font-size: 20px;
+    }
+
+    .form-container {
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+
+      .floating-field {
+        width: 70vw;
+      }
+    }
+  }
+
+  .map-section {
+    .map-title {
+      font-size: 20px;
     }
   }
 }

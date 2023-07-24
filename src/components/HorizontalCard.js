@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
-import logo from '../../assets/images/sfondo.jpg'
+import logo from '../assets/images/sfondo.jpg'
 
 function HorizontalCard(props) {
 

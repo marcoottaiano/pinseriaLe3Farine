@@ -1,6 +1,6 @@
 import React from 'react'
-import glovo from '../../assets/images/glovo-logo.jpg'
-import justEat from '../../assets/images/juestEat-logo.jpg'
+import glovo from '../assets/images/glovo-logo.jpg'
+import justEat from '../assets/images/juestEat-logo.jpg'
 import { BsFacebook, BsInstagram, BsTiktok } from "react-icons/bs"
 
 

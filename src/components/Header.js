@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logo from '../../assets/images/logo.jpg'
+import logo from '../assets/images/logo.jpg'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
