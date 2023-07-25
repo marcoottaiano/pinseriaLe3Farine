@@ -2,16 +2,7 @@ const SCREENS = {
   home: "/",
   menu: "/menu",
   about: "/about",
-  // blog: "/blog",
-  // donate: "/donate",
-  // confirmDonate: "/confirm-donation",
-  // events: "/events",
-  // faq: "/faq",
-  // login: "/login",
-  // resetPassword: "/reset-password",
-  // personalArea: "/personal-area",
-  // signup: "/signup",
-  // support: "/support",
+  factory: "/factory",
   notFound: "*"
 };
 export default SCREENS;

@@ -1,8 +1,16 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { useState } from 'react'
+import { useEffect } from 'react';
 
 function Menu() {
+
+  const [pinse, setPinse] = useState();
+
+  useEffect(() => {
+
+  }, [])
 
   return (
     <div className='menu-container'>

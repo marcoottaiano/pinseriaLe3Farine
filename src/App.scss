@@ -8,6 +8,7 @@
 @import './styles/map.scss';
 @import './styles/menu.scss';
 @import './styles/about.scss';
+@import './styles//factory.scss';
 
 /* reset */
 * {
@@ -24,7 +25,7 @@
 
 body {
   overflow-x: hidden;
-  // font-family: 'Lato-Regular', sans-serif;
+  font-family: 'Poppins-Regular', sans-serif;
 }
 
 ul,
@@ -41,6 +42,6 @@ img {
 }
 
 @font-face {
-  font-family: 'Lato-Regular';
-  src: url('./assets/font/Lato/Lato-Regular.ttf');
+  font-family: 'Poppins-Regular';
+  src: url('./assets/font/Poppins/Poppins-Regular.ttf');
 }

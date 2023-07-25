@@ -1,0 +1,88 @@
+#factory {
+  .header-background {
+    height: 20vh;
+    background-color: $primary;
+  }
+
+  .factory-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+
+    .factory-text {
+      font-size: 25px;
+    }
+
+    .factory-img {
+      height: 60vh;
+      width: 50vw;
+      object-fit: cover;
+    }
+
+    .vector {
+      color: black;
+      border-top: 1px solid black;
+      opacity: 1;
+      width: 60vw;
+    }
+
+    .factory-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin: 5vh 0;
+      width: 65vw;
+      justify-content: b;
+
+      .textarea {
+        width: 65vw;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #factory {
+    .factory-body {
+      text-align: center;
+      width: 80vw;
+
+      .factory-text {
+        font-size: 16px;
+      }
+
+      .factory-img {
+        height: 50vh;
+        width: 80vw;
+      }
+
+      .vector {
+        width: 70vw;
+      }
+
+      .factory-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        margin: 5vh 0;
+        width: 80vw;
+
+        .floating-field {
+          width: 37vw;
+        }
+
+        .textarea {
+          width: 80vw;
+        }
+      }
+    }
+  }
+
+}

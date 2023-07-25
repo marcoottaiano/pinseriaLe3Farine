@@ -42,7 +42,7 @@ function Header() {
               <NavLink to="/menu">Menú</NavLink>
             </li>
             <li>
-              <NavLink to="/">Aziende</NavLink>
+              <NavLink to="/factory">Basi della pinsa</NavLink>
             </li>
             <li>
               <NavLink to="/about">Storia</NavLink>
