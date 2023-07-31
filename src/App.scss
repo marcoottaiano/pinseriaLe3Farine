@@ -8,7 +8,8 @@
 @import './styles/map.scss';
 @import './styles/menu.scss';
 @import './styles/about.scss';
-@import './styles//factory.scss';
+@import './styles/factory.scss';
+@import './styles/collapsable.scss';
 
 /* reset */
 * {
@@ -25,7 +26,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Poppins-Regular', sans-serif;
+  font-family: 'FrankRuhlLibre-Regular', sans-serif;
 }
 
 ul,
@@ -42,6 +43,6 @@ img {
 }
 
 @font-face {
-  font-family: 'Poppins-Regular';
-  src: url('./assets/font/Poppins/Poppins-Regular.ttf');
+  font-family: 'FrankRuhlLibre-Regular';
+  src: url('./assets/font/FrankRuhlLibre-Regular.ttf');
 }

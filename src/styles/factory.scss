@@ -22,13 +22,6 @@
       object-fit: cover;
     }
 
-    .vector {
-      color: black;
-      border-top: 1px solid black;
-      opacity: 1;
-      width: 60vw;
-    }
-
     .factory-form {
       display: flex;
       justify-content: center;
@@ -44,6 +37,13 @@
       }
     }
   }
+}
+
+.vector {
+  color: black;
+  border-top: 1px solid black;
+  opacity: 1;
+  width: 60vw;
 }
 
 @include media-breakpoint-down(sm) {

@@ -1,0 +1,35 @@
+.collapsable-item {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+    &.close {
+        border-bottom: 1px solid black;
+    }
+
+    .item-title {
+        font-size: 35px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .collapsable-item {
+        padding: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+
+        &.close {
+            border-bottom: 1px solid black;
+        }
+
+        .item-title {
+            font-size: 20px;
+        }
+    }
+}

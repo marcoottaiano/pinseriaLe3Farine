@@ -1,11 +1,45 @@
 .menu-container {
   .pinsa-day-container {
     width: 100vw;
-    height: calc(100vh - 200px);
+    height: 20vh;
     background-color: $primary;
   }
 
+  .card {
+    width: 70vw;
+    height: 60vh;
+    background-color: $primary;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    flex-direction: row;
 
+    .card-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 50%;
+      align-items: center;
+    }
+  }
+
+  .pinsa-day-img {
+    width: 35vw;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+  }
 }
 
 .down-triangle {
@@ -21,5 +55,49 @@
 
   .left-triangle {
     border-right: 50vw solid $primary;
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .menu-container {
+    .pinsa-day-container {
+      width: 100vw;
+      height: 20vh;
+      background-color: $primary;
+    }
+
+    .card {
+      height: 70vh;
+      gap: 10%;
+      flex-direction: column;
+
+      .card-text {
+        justify-content: center;
+        gap: 5px;
+        height: 30%;
+      }
+    }
+
+    .pinsa-day-img {
+      width: 50vw;
+      height: 30vh;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .menu-container {
+    .card {
+      height: 55vh;
+      width: 80vw;
+    }
+
+    .pinsa-day-img {
+      height: 25vh;
+    }
+
+    .menu {
+      width: 80vw;
+    }
   }
 }
