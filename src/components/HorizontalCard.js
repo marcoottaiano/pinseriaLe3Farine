@@ -12,7 +12,7 @@ function HorizontalCard(props) {
           <hr className='card-divider' />
           <span className='text-horizontal-card'>{props.subtitle}</span>
         </div>
-        <Button variant='primary' className='button-text'>{props.btnLabel}</Button>
+        <Button variant='primary' className='button-text' onClick={props.onClick}>{props.btnLabel}</Button>
       </div>
       <img src={logo} className='image-horizontal-card' />
     </div>

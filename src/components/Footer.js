@@ -14,9 +14,9 @@ function Footer() {
       <div className='footer-body d-flex align-items-center justify-content-end flex-column'>
         <h3 className='text-white'>Ci trovi anche su:</h3>
         <div className='social-container'>
-          <a href='https://glovoapp.com/it/it/sedriano-magenta/pinseria-le-tre-farine-qse/'>
+          {/* <a href='https://glovoapp.com/it/it/sedriano-magenta/pinseria-le-tre-farine-qse/'>
             <img src={glovo} className='social-logo' />
-          </a>
+          </a> */}
           <a href='https://www.justeat.it/restaurants-pinseria-le-tre-farine-cornaredo/menu'>
             <img src={justEat} className='social-logo' />
           </a>
@@ -32,7 +32,7 @@ function Footer() {
             <BsTiktok className='text-white' size={24} />
           </a>
         </div>
-        <span className='text-white mt-3 footer-bio'>Via Sandro Pertini 6 - 20008 Bareggio (MI) | +39 3278403672 | P.IVA 11083260962</span>
+        <span className='text-white mt-3 footer-bio'>Via Sandro Pertini 6 - 20008 Bareggio (MI) | <a href='tel:+393278403672' className='text-white'>+39 3278403672</a> | P.IVA 11083260962</span>
         <span className='text-white mt-2 mb-3 footer-bio'>© Pinseria le 3 Farine - 2023 - All rights reserved</span>
       </div>
     </div>

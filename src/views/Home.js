@@ -4,12 +4,15 @@ import Footer from '../components/Footer'
 import HorizontalCard from '../components/HorizontalCard'
 import { Button, FloatingLabel, Form } from 'react-bootstrap'
 import Map from '../components/Map'
+import { useNavigate } from 'react-router-dom'
 
 
 function Home() {
   const [email, setEmail] = useState();
   const [personalDataCheckbox, setPersonalDataCheckbox] = useState();
   const [isEmailValid, setIsEmailValid] = useState(true);
+
+  const navigate = useNavigate();
 
   function checkEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -35,6 +38,10 @@ function Home() {
     }
   }
 
+  function onNavigateButtons(page) {
+    eval(`navigate(page)`);
+  }
+
   return (
     <>
       <Header />
@@ -56,8 +63,8 @@ function Home() {
           <div className='text-white news-subtitle'>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</div>
         </div>
       </div>
-      <HorizontalCard title={'Lorem ipsum dolor sit'} subtitle={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin nulla non accumsan ultrices.'} btnLabel={'Menú'} />
-      <HorizontalCard reverse={true} title={'Lorem ipsum dolor sit'} subtitle={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin nulla non accumsan ultrices.'} btnLabel={'Aziende'} />
+      <HorizontalCard title={'Lorem ipsum dolor sit'} subtitle={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin nulla non accumsan ultrices.'} btnLabel={'Menú'} onClick={onNavigateButtons.bind(this, '/menu')} />
+      <HorizontalCard reverse={true} title={'Lorem ipsum dolor sit'} subtitle={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin nulla non accumsan ultrices.'} btnLabel={'Basi'} onClick={onNavigateButtons.bind(this, '/factory')} />
       <hr className='home-vector' />
       <div className='newsletter-section'>
         <div className='text-black newsletter-subtitle text-center'>

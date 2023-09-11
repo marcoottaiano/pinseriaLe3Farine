@@ -10,7 +10,6 @@ function Collapsable(props) {
   const [data, setData] = useState();
 
   useEffect(() => {
-    console.log(props);
     if (props.model) {
       let newProps = cloneDeep(props.model);
       newProps = newProps.filter(pinsa => pinsa.type === props.type);
