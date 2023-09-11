@@ -108,7 +108,7 @@
   }
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(lg) {
   .nav-elements ul li:not(:last-child) {
     margin-right: 30px;
   }
@@ -119,7 +119,7 @@
   }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
 
   .nav-elements ul li:not(:last-child) {
     margin-right: 0;

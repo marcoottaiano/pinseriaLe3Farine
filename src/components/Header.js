@@ -63,6 +63,9 @@ function Header() {
             <li>
               <NavLink to="/about">Storia</NavLink>
             </li>
+            <li>
+              <NavLink to="/contacts">Contatti</NavLink>
+            </li>
           </ul>
         </div>
       </div>

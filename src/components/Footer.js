@@ -28,7 +28,7 @@ function Footer() {
           <a href='https://www.instagram.com/pinseria.letrefarine/' target='_blank'>
             <BsInstagram className='text-white' size={24} />
           </a>
-          <a>
+          <a href='https://www.tiktok.com/@pinseriale3farine?lang=it-IT' target='_blank'>
             <BsTiktok className='text-white' size={24} />
           </a>
         </div>

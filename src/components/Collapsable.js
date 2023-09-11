@@ -20,7 +20,7 @@ function Collapsable(props) {
 
   return (
     <>
-      <div className={`collapsable-item ${!open && 'close'}`}
+      <div className={`collapsable-item ${!open && 'close'} mb-4`}
         onClick={() => setOpen(!open)}
         aria-controls="collapsable-menu"
         aria-expanded={open}

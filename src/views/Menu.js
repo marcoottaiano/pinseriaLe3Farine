@@ -42,7 +42,7 @@ function Menu() {
           </div>
         </div>
       }
-      <div className='menu'>
+      <div className='menu mb-4'>
         <h1 className='mt-4 fw-bold'>Menù</h1>
         {/* <hr className='vector mt-4 mb-4' /> */}
         <Collapsable model={pinse} type={'CLASSICA'} label='classiche' />

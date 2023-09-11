@@ -29,7 +29,7 @@ function Factory() {
       newState[evt.target.name] = evt.target.value;
     }
     setForm(newState)
-    if (evt.target.name == 'email' && evt.target.value !== '' && !isEmailValid) setIsEmailValid(true);
+    if (evt.target.name === 'email' && evt.target.value !== '' && !isEmailValid) setIsEmailValid(true);
   }
 
   function handleOnSubmit() {
