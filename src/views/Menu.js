@@ -29,7 +29,7 @@ function Menu() {
       </div>
       {pinsaGiorno &&
         <div className='d-flex justify-content-center align-items-center mt-4 mb-4'>
-          <div className='card'>
+          <div className='day-card'>
             <img
               src={`data:image/jpg;base64,${pinsaGiorno.image}`}
               className='pinsa-day-img'

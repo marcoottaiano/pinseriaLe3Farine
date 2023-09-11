@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Collapse } from 'react-bootstrap';
 import { IoIosArrowDown } from 'react-icons/io'
 import { IoIosArrowUp } from 'react-icons/io'
+import Card from './Card';
 
 function Collapsable(props) {
   const [open, setOpen] = useState();
@@ -31,14 +32,19 @@ function Collapsable(props) {
         }
       </div>
       <Collapse in={open}>
-        <div id='collapsable-menu'>
+        <div id='collapsable-menu' className='collaps-menu'>
           {data && data.length > 0 && (
             data.map((pinsa, key) => {
               return (
                 <div key={key}>
-                  {pinsa.name}
-                  {pinsa.type}
+                  <Card
+                    img={`data:image/jpg;base64,${pinsa.image}`}
+                    name={pinsa.name}
+                    description={pinsa.description}
+
+                  />
                 </div>
+
               )
             })
           )}

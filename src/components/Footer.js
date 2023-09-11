@@ -14,18 +14,18 @@ function Footer() {
       <div className='footer-body d-flex align-items-center justify-content-end flex-column'>
         <h3 className='text-white'>Ci trovi anche su:</h3>
         <div className='social-container'>
-          <a href='#'>
+          <a href='https://glovoapp.com/it/it/sedriano-magenta/pinseria-le-tre-farine-qse/'>
             <img src={glovo} className='social-logo' />
           </a>
-          <a href='#'>
+          <a href='https://www.justeat.it/restaurants-pinseria-le-tre-farine-cornaredo/menu'>
             <img src={justEat} className='social-logo' />
           </a>
         </div>
         <div className='social-container'>
-          <a>
+          <a href='https://www.facebook.com/PinserialeTreFarineBareggio/' target='_blank'>
             <BsFacebook className='text-white' size={24} />
           </a>
-          <a>
+          <a href='https://www.instagram.com/pinseria.letrefarine/' target='_blank'>
             <BsInstagram className='text-white' size={24} />
           </a>
           <a>

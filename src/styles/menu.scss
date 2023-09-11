@@ -5,7 +5,7 @@
     background-color: $primary;
   }
 
-  .card {
+  .day-card {
     width: 70vw;
     height: 60vh;
     background-color: $primary;
@@ -66,7 +66,7 @@
       background-color: $primary;
     }
 
-    .card {
+    .day-card {
       height: 70vh;
       gap: 10%;
       flex-direction: column;
@@ -87,7 +87,7 @@
 
 @include media-breakpoint-down(sm) {
   .menu-container {
-    .card {
+    .day-card {
       height: 55vh;
       width: 80vw;
     }

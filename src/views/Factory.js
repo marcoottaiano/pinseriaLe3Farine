@@ -57,7 +57,7 @@ function Factory() {
           src={sfondo}
           className='factory-img'
         />
-        <p className='mt-4 factory-text'>
+        <p className='mt-4 factory-text text-center'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor quam at nibh eleifend, maximus lobortis diam feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor quam at nibh eleifend, maximus lobortis diam feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor quam at nibh eleifend, maximus lobortis diam feugiat
         </p>
         <hr className='vector mt-4 mb-4' />
